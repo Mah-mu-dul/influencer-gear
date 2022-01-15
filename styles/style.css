@@ -118,15 +118,15 @@ margin: 2005x;
     color: gray;
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
     background-color: rgb(3, 3, 26);
-    padding: 50px;
+    
     
 }
-footer h1{
-    color: white;
+footer p{
+    color: gray;
     margin: 0;
+    
 }
 .icons a{
     color: gray;
