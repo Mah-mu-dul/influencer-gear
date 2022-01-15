@@ -5,6 +5,7 @@ body{
     font-weight: 700;
     width: 1440px;
     margin:0 auto ;
+    background-color: rgb(254, 254, 255);
 }
 
 h1{
@@ -29,7 +30,6 @@ main{
     grid-template-columns: 1.5fr 1fr;
 }
 .top-section:hover img{
-    /* background-color: rgb(215, 225, 245); remove  */
     transform: scale(1.2);
     transition: transform .5s ease-in-out;
  }
@@ -59,3 +59,27 @@ margin: 2005x;
 
                                                       
                                                         /* first section end  */
+
+
+                                                        /* mid-section start  */
+.mid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    height: 1662px;
+    width: 1047px;
+    margin: 120px;
+    justify-items: center;
+    justify-content: space-around;
+    border-radius: [object Object]px;
+
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(146, 113, 223, 0.267);
+}
+                                                        /* mid-section end  */
