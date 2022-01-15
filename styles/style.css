@@ -10,9 +10,8 @@ body{
 h1{
     Font-style: Bold;
     Font-size: 52px;
+    line-height: 1.8;
     
-    Line-height: 70px;
-    Line-height: 90%;
     Vertical-align: Top;
 }
 p{
@@ -29,6 +28,11 @@ main{
     justify-content: space-around;
     grid-template-columns: 1.5fr 1fr;
 }
+.top-section:hover img{
+    /* background-color: rgb(215, 225, 245); remove  */
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+ }
 .top-section .two-parts img{
     Width: 440px;
     Height: 414px;
@@ -53,5 +57,5 @@ margin: 2005x;
 }
 
 
-
+                                                      
                                                         /* first section end  */
