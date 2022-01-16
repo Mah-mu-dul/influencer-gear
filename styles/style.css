@@ -106,7 +106,13 @@ margin: 2005x;
     height: 24px;
 }
                                                      /* mid-section end  */
-                                                    /* footer start  */
+
+.optional{
+
+    display: flex;
+    justify-content: center;
+}
+                                                     /* footer start  */
 .footer{
     height: auto;
     color: gray;
