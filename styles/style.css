@@ -106,11 +106,25 @@ margin: 2005x;
     height: 24px;
 }
                                                      /* mid-section end  */
-
 .optional{
-
-    display: flex;
-    justify-content: center;
+    margin: 10px;
+    border: 1px solid powderblue;
+    box-shadow: 1px 1px 20px grey;
+    padding: 10px;
+}
+.optional img{
+    width:440px;
+    height: 270px;
+    padding: 10px;
+}
+.side{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    font-size: 25px;
+}
+.side p{
+    
+    line-height: 1.5;
 }
                                                      /* footer start  */
 .footer{

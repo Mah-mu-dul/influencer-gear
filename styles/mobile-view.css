@@ -87,6 +87,9 @@
         color: #E02C6D;
         
     }
+    .optional{
+        display: none;
+    }
                                           
      footer{
             color: gray;
